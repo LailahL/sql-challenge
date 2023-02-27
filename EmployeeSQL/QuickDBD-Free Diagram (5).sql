@@ -67,3 +67,4 @@ REFERENCES "departments" ("dept_no");
 
 ALTER TABLE employees ALTER COLUMN birth_date TYPE VARCHAR(10);
 ALTER TABLE employees ALTER COLUMN hire_date TYPE VARCHAR(10);
+ALTER TABLE dept_manager ADD PRIMARY KEY (dept_no, emp_no);
